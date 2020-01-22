@@ -6,7 +6,8 @@
   &--large{
     color : yellow;
     font-size: 13.6
-    font-size: 6.25rem;
+    @mixin atSmall {
+      font-size: 6.25rem;
     }
   }
 
